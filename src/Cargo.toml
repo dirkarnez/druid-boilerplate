@@ -5,6 +5,7 @@ authors = ["Your Name <you@example.com>"]
 edition = "2018"
 
 [dependencies]
+druid = { git = "https://github.com/linebender/druid.git" }
 
 [[bin]]
 name = "hello-world"

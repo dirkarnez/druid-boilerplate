@@ -1,0 +1,11 @@
+FROM rust:1.40
+
+WORKDIR /usr/src/hello-world
+COPY ./src .
+
+VOLUME ["/usr/src/hello-world"]
+
+# Originally
+# RUN cargo install --path .
+
+CMD ["cargo", "run"]

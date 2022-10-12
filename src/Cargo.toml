@@ -1,0 +1,13 @@
+[package]
+name = "hello-world"
+version = "0.1.0"
+authors = ["Your Name <you@example.com>"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name = "hello-world"
+path ="main.rs"
+test = false
+bench = false
